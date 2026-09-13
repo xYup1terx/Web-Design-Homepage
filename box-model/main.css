@@ -1,0 +1,47 @@
+img {
+    max-width: 100%;
+}
+
+.block {
+    background-color: aquamarine;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.inline {
+    background-color: chocolate;
+    border: 1px solid;
+   /* margin, padding, width, and height work inconsistenly on inline elements and should be avoided when possbile */
+}
+
+.inline-block {
+    background-color:limegreen;
+    border: 1px solid;
+    display:inline-block;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.content-box {
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 10px solid red; 
+    margin: 20px;
+}
+
+.border-box {
+    background-color: rgb(135, 27, 177);
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 10px solid rgb(200, 45, 184); 
+    margin: 20px;
+    box-sizing: border-box;
+}

@@ -39,3 +39,15 @@ hr {
 .borda {
     border: 5px solid #8f1069; 
 }
+
+.ship {
+    text-align: center;
+}
+
+button {
+    border: 5px solid #8f1069; 
+    border-radius: 20px;
+    padding:20px;
+    background-color: blueviolet;
+    color:#a9a9a9
+}
