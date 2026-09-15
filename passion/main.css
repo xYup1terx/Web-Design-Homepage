@@ -14,13 +14,16 @@ body {
     #cd7532 39%,
     #f1f16c 50%,
     #398339 60%,
-    #2a6ca2 57%,
+    #2a6ca2 75%,
     indigo 90%,
     violet 100%);
 
     font-family: Fontdiner Swanky ;
 }
 
+p {
+    font-family: 'Courier New', Courier, monospace
+}
 .block {
     background-color: aquamarine;
     border: 1px solid;
