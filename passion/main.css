@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Fontdiner-Swanky; 
+  src: url("Fontdiner-Swanky"); 
+}
+
+
 body {
     background-color: blanchedalmond;
     
@@ -11,6 +17,8 @@ body {
     #2a6ca2 57%,
     indigo 90%,
     violet 100%);
+
+    font-family: Fontdiner Swanky ;
 }
 
 .block {

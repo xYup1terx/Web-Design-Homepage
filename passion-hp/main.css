@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Fontdiner-Swanky; 
+  src: url("Fontdiner-Swanky"); 
+}
+
 body {
     height:100%;
 
@@ -8,6 +13,8 @@ body {
     ); */
      background-repeat: no-repeat;
      background-attachment: fixed;
+
+     font-family: Fontdiner Swanky ;
 }
 
 .block {
@@ -50,7 +57,7 @@ body {
 
 #look {
     position: absolute;
-    bottom: 8px;
+    top: 200px;
     right: 300px;
 
 }
@@ -68,6 +75,7 @@ body {
     bottom: 30px;
     right: 150px;
     color: #881c1c;
+    font-size: medium;
 }
 
 .door2 {
