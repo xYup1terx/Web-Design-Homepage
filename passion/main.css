@@ -4,8 +4,7 @@ body {
     /* W3 schools scrollable color bg */
     height: 3000px; 
   background: linear-gradient(
-    #588bb5 35%,
-    #721313 45%,
+    #721313 25%,
     #cd7532 39%,
     #f1f16c 50%,
     #398339 60%,
@@ -32,6 +31,9 @@ body {
 }
 
 .flowa {
+    position: absolute;
+    top: 270px;
+    left: 200px;
 
 }
 
