@@ -1,17 +1,13 @@
 body {
-    background-color: blanchedalmond;
-    
-    /* W3 schools scrollable color bg */
-    height: 3000px; 
-  background: linear-gradient(
-    #588bb5 35%,
-    #721313 45%,
-    #cd7532 39%,
-    #f1f16c 50%,
-    #398339 60%,
-    #2a6ca2 57%,
-    indigo 90%,
-    violet 100%);
+    height:100%;
+
+    background-color: #588bb5;
+  /* background: linear-gradient(
+    #588bb5,
+    #436eb7
+    ); */
+     background-repeat: no-repeat;
+     background-attachment: fixed;
 }
 
 .block {
@@ -57,4 +53,25 @@ body {
     bottom: 8px;
     right: 300px;
 
+}
+
+.door1 {
+
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+
+}
+
+#dont {
+     position: absolute;
+    bottom: 30px;
+    right: 150px;
+    color: #881c1c;
+}
+
+.door2 {
+    position: absolute;
+    bottom: 300px;
+    right: 200px;
 }
