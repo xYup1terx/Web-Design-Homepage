@@ -1,0 +1,13 @@
+body {
+    /* background-image: url("../frontimg/EXPLODE.gif");
+    background-repeat: no-repeat; */
+    background-color: black;
+
+}
+
+.wait {
+    display: block;
+    margin: auto;
+    width: 53%;
+}
+/* w3 schools tutorial for centering: https://www.w3schools.com/CSS/css3_image_center.asp*/
