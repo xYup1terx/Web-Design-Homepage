@@ -1,7 +1,8 @@
 @font-face {
-  font-family: Fontdiner-Swanky; 
-  src: url("Fontdiner-Swanky"); 
+  font-family: Fontdiner-Swanky;
+  src: url("./fonts/FontdinerSwanky-Regular.ttf") format("truetype");
 }
+
 
 body {
     height:100%;
