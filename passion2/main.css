@@ -9,6 +9,48 @@ body {
     font-family: RubikGlitch-Regular ;
 }
 
+.mac {
+    background-color: rgb(142, 11, 11);
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#mac2 {
+    position: absolute;
+    right: 300px;
+}
+
+#mac3 {
+    position: absolute;
+    top: 960px;
+    left: 560px;
+}
+
+.marian {
+    background-color: rgb(210, 127, 10);
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#marian1 {
+
+     position: absolute;
+    right: 530px;
+}
+
+#marian2 {
+
+     position: absolute;
+    top: 2000px;
+    left: 560px;
+}
+
 .marquis {
     background-color: rgb(110, 26, 141);
     border: 1px solid;
@@ -17,6 +59,8 @@ body {
     width: 100px;
     height: 100px;
 }
+
+
 
 .block {
     background-color: aquamarine;
@@ -53,4 +97,22 @@ p {
 .righty {
     position: relative;
     left: 650px;
+}
+
+.linkies {
+    font-size: 100px;
+    color:white
+}
+
+details {
+    font-size: 30px;
+}
+
+.talk {
+  vertical-align: top;
+}
+
+li {
+    color: #e30303;
+    font-size: 40px;
 }
