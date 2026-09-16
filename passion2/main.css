@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Fontdiner-Swanky;
+  src: url("./fonts/FontdinerSwanky-Regular.ttf") format("truetype");
+}
+
+body {
+    background-color: blanchedalmond;
+    
+    /* W3 schools scrollable color bg */
+    height: 3000px; 
+  background: linear-gradient(
+    #721313 25%,
+    #cd7532 39%,
+    #f1f16c 50%,
+    #398339 60%,
+    #2a6ca2 75%,
+    indigo 90%,
+    violet 100%);
+
+    font-family: Fontdiner-Swanky ;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace
+}
+.block {
+    background-color: aquamarine;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.talk {
+  vertical-align: top;
+}
+
+#waterme {
+    vertical-align:middle;
+}
+
+.flowa {
+    position: absolute;
+    top: 270px;
+    left: 200px;
+
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.intro {
+    position: relative;
+    text-align: center;
+     color: white;
+}
+
+#welcome {
+    position: absolute;
+    top: 8px;
+    left: 300px;
+}
+
+#look {
+    position: absolute;
+    bottom: 8px;
+    right: 300px;
+
+}
+
+.blurb {
+    background-color: bisque;
+    border: 5px dotted red;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.linkies 
+{
+    color:#721313
+    
+}
+
+.gang {
+   position: absolute;
+    top: 12px;
+    right: 100px;
+}
