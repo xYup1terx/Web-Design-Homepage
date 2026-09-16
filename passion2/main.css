@@ -49,3 +49,8 @@ p {
     text-decoration-line: overline;
     text-decoration-color: #e30303;
 }
+
+.righty {
+    position: relative;
+    left: 650px;
+}
