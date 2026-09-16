@@ -51,6 +51,83 @@ body {
     left: 560px;
 }
 
+.mimi {
+    background-color: rgb(242, 198, 52);
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#mimi1 {
+    position: absolute;
+    left: 700px;
+}
+
+#mimi2 {
+    position: absolute;
+    top: 1800px;
+    right: 40px;
+}
+
+.milo {
+    background-color: rgb(19, 90, 35);
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#milo1 {
+    position: absolute;
+    right: 400px;
+}
+
+#milo2 {
+    position: absolute;
+    top: 2300px;
+    right: 40px;
+}
+
+#milo3 {
+    position: absolute;
+    left: 450px;
+}
+
+.marquette {
+    background-color: rgb(26, 88, 163);
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#marquette1 {
+
+     position: absolute;
+    left: 800px;
+
+}
+
+#marquette2 {
+
+     position: absolute;
+    top: 2870px;
+    left: 100px;
+
+}
+
+#marquette3 {
+
+     position: absolute;
+    top: 3270px;
+    right: 100px;
+
+}
+
 .marquis {
     background-color: rgb(110, 26, 141);
     border: 1px solid;
