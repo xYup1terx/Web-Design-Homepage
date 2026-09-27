@@ -39,3 +39,9 @@ hr {
 .borda {
     border: 5px solid #8f1069; 
 }
+
+.center {
+    border: 5px solid #8f1069; 
+    display: block;
+    margin: auto;
+}

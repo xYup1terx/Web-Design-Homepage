@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
 body {
-       background-color: #000000;
+    font-family: "Pixelify Sans", sans-serif
+     background-color: #000000;
     background-image: url("frontimg/floaty.gif");
     background-repeat: no-repeat;
     background-size: cover;
     color:gold
+    
 }
 
 h1{
@@ -13,5 +17,6 @@ h1{
 a{
     color: #ffffff;
 }
+
 
    /* background-color: #545469; */

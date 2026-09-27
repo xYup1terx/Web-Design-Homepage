@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.box {
+    background-color: #991c1c;
+    border:1px solid;
+    width:100px;
+    height: 100px;
+    margin:20px 0px;
+}
+
+.relative {
+    background-color: rgb(106, 65, 145);
+    position: relative;
+    top: 50px;
+    /* top moves element down  (negative vs positive) */
+    left:50px
+    /* only left or right / top or bottom, not both */
+}
+
+/* relative positions its self relative to its initial position. Positive value move up, negative move down. All relative to bottom edge of original location*/
+
+.fixed {
+
+    background-color: rgb(102, 151, 100);
+    position:fixed;
+    top:0;
+    right:0;
+    margin:0;
+
+    /* z-index:2; */
+    /* assign a value for layering */
+}
+
+/* .new {
+    background-color: rgb(237, 147, 234);
+    top:20px;
+    right:20px;
+} */
+
+.sticky {
+
+    background-color: rgb(65, 118, 106);
+    position:sticky;
+    top:0;
+}
+
+.absolute {
+    background-color: rgb(186, 149, 73);
+    position:absolute;
+    top:200px;
+    left:400px;
+}
+
+.parent {
+    background-color: #af9fb5;
+    width:300px;
+    height:300px;
+    position:relative;
+}
+
+/* absolutely positioned elements will position themselves relative to the document body unless they have a parent/container that has also been given a position value */
+
+.grandparent {
+    background-color: #991c1c;
+    width:500px;
+    height:500px;
+    position:relative;
+
+}
+
+.child {
+    background-color: #a27cb0;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:-50px;
+    right:-50px;
+}
+
+.smiley {
+    background-color: #2de9d3;
+    width:200px;
+    height:200px;
+    position:relative;
+    margin-top:100px;
+}
+
+.eye {
+    background-color: rgb(26, 88, 38);
+    width:50px;
+    height:50px;
+    border: 6px solid white;
+    position:absolute;
+    top:50px;
+}
+
+.left {
+    left:20px;
+}
+
+.right {
+    right:20px;
+}
+
+.mouth {
+    background-color: #a27cb0;
+    width:60px;
+    height:20px;
+    position:absolute;
+    bottom:40px;
+    left:70px;
+    border-radius: 0 0 100% 100%;
+}
+
+.hat {
+    background-color: rgb(109, 5, 129);
+    width:100px;
+    height:40px;
+    position:absolute;
+    top:-30px;
+    left:50px;
+}

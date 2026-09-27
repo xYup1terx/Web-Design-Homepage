@@ -51,3 +51,8 @@ button {
     background-color: blueviolet;
     color:#a9a9a9
 }
+
+.center {
+     display: block;
+    margin: auto;
+}
