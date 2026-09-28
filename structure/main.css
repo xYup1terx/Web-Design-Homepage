@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #95a8d3;
+}
+
+p {
+    color: #476099;
+    font-family:
+    font-size: 20px;
+}
+.moon {
+    position:fixed;
+     top:10px;
+     left:30px;
+}
+
+.well {
+    position:absolute;
+    bottom:160px;
+    right: 260px;
+}
+
+.path {
+    position:absolute;
+    bottom:-300px;
+    right: 300px;
+}
+
+#why {
+    position:absolute;
+    bottom:-300px;
+    right: 30px;
+}
+
+.wish {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}

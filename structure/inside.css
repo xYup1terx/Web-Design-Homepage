@@ -1,0 +1,10 @@
+body {
+background-image: linear-gradient(
+    #95a8d3 20%,
+    #657498 40%,
+    #3f4960  60%,
+    #1e232e 80%,
+    #090a0e 100%);
+background-repeat: no-repeat;
+cursor: url("img/coin-cursor.png") 16 16, auto;
+}
