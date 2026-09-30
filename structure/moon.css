@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Felipa&family=Quintessential&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #95a8d3;
+    font-family: "Felipa", serif;
+}
+
+h3 {
+    color: #476099;
+    font-family: "Quintessential", serif;
+    font-size: 30px;
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+p {
+    color: #476099;
+    font-family: "Quintessential", serif;
+    font-size: 18px;
+    position:absolute;
+    top:65px;
+    left:35px;
+} 
+
+#clouds {
+    position: absolute;
+    opacity: .25;
+}
+
+.moon {
+    position:absolute;
+    right:410px
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+button {
+    background-color: #476099;
+    color:#95a8d3;
+    border: outset 4px #5977bd;
+    border-radius: 20px;
+    padding:15px 50px 15px 50px;
+    margin:10px;
+}
+
+a {
+    color: #95a8d3;
+    font-family: "Felipa", serif;
+    font-size: 20px;
+}
+
+.yes {
+      position:absolute;
+      top:120px;
+      left:50px;
+}
+
+.no {
+    position:absolute;
+      top:120px;
+      left:250px;
+}

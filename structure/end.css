@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Felipa&family=Quintessential&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     height:50000px;
+    background-image: linear-gradient(
+    #95a8d3 20%,
+    #657498 40%,
+    #3f4960  60%,
+    #1e232e 85%,
+    #090a0e 99.3%,
+    #2d3b70 100%);
+    background-repeat: no-repeat;
+    font-family: "Felipa", serif;
+}
+
+img {
+    max-width: 100%;    
+}
+
+
+#endwall {
+    position:fixed;
+    top: 0;
+    left: 0;
+    height:100vh;
+    width: 100vw;
+    margin:0px;
+     object-fit: cover;
+    object-position: center 80%;
+    /* https://www.w3schools.com/cssref/css3_pr_object-position.php */
+}
+
+.center {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-top:2000px;
+    margin-bottom:2000px;
+    color: white;
+    font-size: 20px;
+}
+
+.above {
+    z-index: 9999;
+}

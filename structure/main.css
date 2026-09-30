@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Felipa&family=Quintessential&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -8,17 +10,25 @@ img {
 
 body {
     background-color: #95a8d3;
+    font-family: "Felipa", serif;
 }
 
 p {
     color: #476099;
-    font-family:
-    font-size: 20px;
+   font-family: "Quintessential", serif;
+    font-size: 15px;
+}
+
+#clouds {
+    position: absolute;
+    top:-10px;
+    opacity: .25;
 }
 .moon {
-    position:fixed;
-     top:10px;
-     left:30px;
+    position:absolute;
+     top:20px;
+     left:70px;
+     opacity: .6;
 }
 
 .well {
@@ -36,7 +46,7 @@ p {
 #why {
     position:absolute;
     bottom:-300px;
-    right: 30px;
+    right: 50px;
 }
 
 .wish {
@@ -44,4 +54,70 @@ p {
     justify-content: center;
     align-items: center;
     height:100%;
+}
+
+.makewish {
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invis {
+    color: #95a8d3;
+}
+
+.intro {
+     flex-direction: column;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+h1, h3{
+    color: #476099;
+}
+
+h1 {
+     font-size: 45px;
+     text-decoration: underline;
+}
+#go {
+    position:absolute;
+    bottom:275px;
+    right:75px;
+}
+
+#coiny {
+     position:absolute;
+     bottom:340px;
+     right:165px;
+}
+
+input {
+    border: solid 2px #476099;
+    background-color: #c2ceeb;
+    color: #476099;
+    padding: 2px;
+    width:400px;
+}
+
+button {
+    background-color: #476099;
+    color:#95a8d3;
+    border: outset 4px #5977bd;
+    border-radius: 20px;
+    padding:15px 30px 15px 30px;
+    margin:10px;
+}
+
+#ytlink {
+    color: #95a8d3;
+    font-family: "Felipa", serif;
+    font-size: 15px;
+}
+
+.top {
+    z-index: 9999;
 }

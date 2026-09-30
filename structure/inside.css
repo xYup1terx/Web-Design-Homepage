@@ -1,10 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Felipa&family=Quintessential&display=swap');
 body {
+    background-color: #000000;
 background-image: linear-gradient(
     #95a8d3 20%,
     #657498 40%,
     #3f4960  60%,
-    #1e232e 80%,
-    #090a0e 100%);
-background-repeat: no-repeat;
-cursor: url("img/coin-cursor.png") 16 16, auto;
+    #1e232e 85%,
+    #090a0e 99.3%,
+    #2d3b70 100%);
+    font-family: "Felipa", serif;
+    background-repeat: no-repeat;
+    cursor: url("img/coin-cursor.png") 16 16, auto;
 }
+
+.wall-1 {
+    background-image: linear-gradient(
+    #657498 20%,
+    #3f4960 40%,
+    #1e232e 60%,
+    #090a0e 80%,
+    #090a0e 100%);
+    height:50000px;
+    width:30%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin:0px;
+    padding:0px;
+}
+
+.wall-2 {
+    background-image: linear-gradient(
+    #657498 20%,
+    #3f4960 40%,
+    #1e232e 60%,
+    #090a0e 80%,
+    #090a0e 100%);
+    height:50000px;
+    width:30%;
+    top:0px;
+    right:0px;
+    position:absolute;
+}
+
+.go {
+    color: white;
+    z-index: 9999;
+    font-size:20px;
+    margin-left:20px;
+}
+
+
+/* CSS for falling part */
+
+.sticky {
+    position:sticky;
+    top:0;
+    margin-bottom:3000px;
+}
+
+.poem {
+    color: #fffffd;
+    position:sticky;
+}
+
+/* poem 1 */
+
+.star {
+    position:sticky;
+    /* top:0; */
+    vertical-align: middle;
+    /* margin-bottom:1500px; */
+}
+
+.p1 {
+    top:0;
+    margin-top: 100px;
+    margin-left:10px;
+ }
+
+ .p2 {
+    top: 40px;
+    margin-left:30px;
+ }
+
+ .p3 {
+    top: 80px;
+    margin-left:60px;
+ }
+
+ .p4 {
+    top: 120px;
+    margin-left:90px;
+ }
+
+.p5 {
+    top: 160px;
+    margin-left:140px;
+ }
+
+ .p6 {
+    top: 200px;
+    margin-left:160px;
+ }
+
+
+
+ .p7 {
+    top: 300px;
+    margin-left:180px;
+    font-size: 20px;
+ }
+
+ .p8 {
+    top: 340px;
+    margin-left:320px;
+    font-size: 25px;
+    
+ }
+
+ .p9 {
+    top: 380px;
+    margin-left:140px;
+    font-size: 30px;
+ }
+
+  .p10 {
+    top: 420px;
+    margin-left:260px;
+    font-size: 40px;
+ }
+
+  .p11 {
+    top: 470px;
+    margin-left:90px;
+    font-size: 50px;
+ }
+
+ .p12 {
+    top: 520px;
+    margin-left:220px;
+    font-size: 70px;
+ }
+
+ .p13 {
+    top: 650px;
+    margin-left:130px;
+    font-size: 85px;
+    color: #657498;
+    text-decoration:underline;
+ }
+
+
+ .p14 {
+    top: 800px;
+    margin-left:220px;
+    font-size: 45px;
+    color:#353b4f;
+ }
+
+ .splash {
+    z-index: 9999;
+ }
+
+/* .star1 {
+
+    bottom:-1000px;
+    left:120px;
+} */
+
