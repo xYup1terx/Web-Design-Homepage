@@ -165,9 +165,7 @@ background-image: linear-gradient(
     position: relative;
     z-index: 9999;
     top: 3440px;
-    /* top moves element down  (negative vs positive) */
     left:390px
-    /* only left or right / top or bottom, not both */
  }
 
 /* .star1 {
