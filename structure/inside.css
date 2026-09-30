@@ -164,7 +164,7 @@ background-image: linear-gradient(
     color: #000000;
     position: relative;
     z-index: 9999;
-    top: 3480px;
+    top: 3440px;
     /* top moves element down  (negative vs positive) */
     left:390px
     /* only left or right / top or bottom, not both */
