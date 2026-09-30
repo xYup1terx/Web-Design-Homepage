@@ -45,6 +45,7 @@ img {
     justify-content: center;
     margin-top:2000px;
     margin-bottom:2000px;
+    margin-right: 95px;
     color: white;
     font-size: 20px;
 }
@@ -52,3 +53,5 @@ img {
 .above {
     z-index: 9999;
 }
+
+.shim 
