@@ -160,6 +160,7 @@ background-image: linear-gradient(
  }
 
  .splash {
+    position: relative;
     z-index: 9999;
  }
 
