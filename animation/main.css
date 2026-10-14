@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.box {
+    background-color:rgb(84, 107, 158);
+    width:100px;
+    height:100px;
+    position:relative;
+
+    /* animation-name: test;
+    animation-duration: 5s;
+    animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    animation-direction:alternate;
+    animation-fill-mode: both; */
+
+    /* animation shorthand: duration -> delay -> iteration-count -> timing ->direction ->fill*/
+    
+    animation: test 5s 2s infinite ease-in-out alternate both;
+}
+
+@keyframes test {
+    0% {
+        background: rgb(0, 0, 0);
+        top:0;
+    }
+    50% {
+        background: rgb(235, 181, 3);
+    }
+    100% {
+        background-color: rgb(84, 107, 158);
+        top:200px;
+    }
+}
+
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin:0;
+}
+
+p {
+    padding:10px;
+}
+
+.container {
+    background: rgb(255, 174, 219);
+    height:100vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position:relative;
+    overflow:hidden;
+}
+
+.circle {
+    background-color: #f4d87c;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    
+    animation: pulse 5s infinite alternate ease;
+}
+
+@keyframes pulse {
+    0% {
+        background-color:#f4d87c;
+        scale: 1;
+    }
+    100% {
+        background-color: #d763ad;
+        scale: 1.4;
+    }
+}
+
+.square {
+    background-color: palevioletred;
+    width:100px;
+    height:100px;
+    animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        rotate: 0;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
+
+.mover {
+    background-color: #f4c8e6;
+    width:100px;
+    height:40px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    animation: 
+    prime-mover 4s infinite, 
+    scale 2s infinite alternate ease-in-out;
+}
+
+@keyframes prime-mover {
+    0% {
+        left: -100px;
+    }
+    100% {
+        left:100%;
+    }
+}
+
+@keyframes scale {
+    0% {
+        scale:1;
+    }
+    100% {
+        scale:2;
+    }
+}
+
+.changer {
+    background: rgb(206, 105, 159);
+    width: 100px;
+    height:100px;
+    transition: 
+    background 1s ease-in-out,
+    border-radius 3s,
+    scale .2s,
+    rotate 1s;
+    /* transition: all 1s ease; */
+}
+
+.changer:hover {
+    background-color: #f4d87c;
+    border-radius: 100%;
+    rotate: 180deg;
+}
+
+.changer:active {
+    background: #f4c8e6;
+    scale:.9;
+}

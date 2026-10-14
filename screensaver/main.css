@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-image: url(img/picblank.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.absolute {
+    position:absolute;
+}
+
+.absolute:hover {
+    scale:.98;
+}
+
+#sandwich {
+    top:30px;
+    left: 270px;
+}
+
+#berry {
+    top:320px;
+    left: 470px;
+}
+
+#basket {
+    top:-100px;
+    left:480px;
+    z-index: -1;
+}
+
+#lemonade {
+    top:50px;
+    right:225px;
+}
+#pie {
+    bottom:30px;
+    right:230px;
+}
+
+#burger {
+    top:340px;
+    right:540px;
+}
+
+#hotdog {
+    bottom:70px;
+    left:290px;
+}
+
+#peanut {
+    bottom:50px;
+    left:625px;
+}
+
+#trail {
+    position:absolute;
+    z-index: -2;
+    left:-1800px;
+    bottom:-320px;
+    animation: 
+    trail 100s infinite;
+}
+
+@keyframes trail {
+    0% {
+        left:-1500px;
+    }
+    100% {
+        left:100%
+    }
+}
+
+
+/* #trail2 {
+    z-index: -2;
+    left:-2000px;
+    bottom:-320px;
+    animation: 
+    trail2 90s 25s infinite;
+}
+
+@keyframes trail2 {
+    0% {
+        left:-1200px;
+    }
+    100% {
+        left:100%
+    }
+} */
+
+
+/* lemonade ants */
+.spin {
+    animation: spinny 10s linear infinite 
+}
+
+#spin1 {
+    top:210px;
+    right:380px;
+}
+
+#spin2 {
+    top:270px;
+    right:400px;
+    animation: spinny2 12s linear infinite 
+}
+
+#spin3 {
+    top:230px;
+    right:450px;
+}
+
+@keyframes spinny {
+    0% {
+        rotate:0deg;
+    }
+    100% {
+        rotate:360deg;
+    }
+}
+
+@keyframes spinny2 {
+    0% {
+        rotate:0deg;
+    }
+    100% {
+        rotate:-360deg;
+    }
+}
+
+/* sandwich ants */
+
+#sandwich1 {
+    top:90px;
+    left:320px;
+    rotate:60deg;
+    animation: bite 2s ease-in-out alternate infinite;
+}
+
+#sandwich2 {
+    top:97px;
+    left:530px;
+    rotate:120deg;
+    animation: bite 2s 1s ease-in-out alternate infinite;
+}
+
+#sandwich3 {
+    top:320px;
+    left:540px;
+    rotate:-120deg;
+    animation: bite 2s ease-in-out alternate infinite;
+}
+
+#sandwich4 {
+    top:270px;
+    left:300px;
+    rotate:-60deg;
+    animation: bite 2s 1s ease-in-out alternate infinite;
+}
+
+@keyframes bite {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(10px);
+    }
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@keyframes */
+}

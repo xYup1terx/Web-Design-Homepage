@@ -1,0 +1,380 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: black;
+    background-image: url(img/picblanknbe.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.absolute {
+    position:absolute;
+}
+
+.absolute:hover {
+    scale:.98;
+}
+
+#sandwich {
+    top:30px;
+    left: 270px;
+}
+
+#berry {
+    top:320px;
+    left: 470px;
+}
+
+#basket {
+    top:-100px;
+    left:480px;
+    z-index: -1;
+}
+
+#lemonade {
+    top:50px;
+    right:225px;
+}
+#pie {
+    bottom:30px;
+    right:230px;
+}
+
+#burger {
+    top:340px;
+    right:540px;
+}
+
+#hotdog {
+    bottom:70px;
+    left:290px;
+}
+
+#peanut {
+    bottom:50px;
+    left:625px;
+}
+
+
+/* trail */
+#trail {
+    position:absolute;
+    z-index: -2;
+    left:-1800px;
+    bottom:-320px;
+    animation: 
+    trail 100s infinite;
+}
+
+#trail2 {
+    rotate:-270deg;
+    position:absolute;
+    left:890px;
+    animation: 
+    trail2 165s infinite;
+}
+
+@keyframes trail {
+    0% {
+        left:-1500px;
+    }
+    100% {
+        left:100%
+    }
+}
+
+@keyframes trail2 {
+    0% {
+        top:-3000px;
+    }
+    100% {
+        top:100%
+    }
+}
+
+
+/* #trail2 {
+    z-index: -2;
+    left:-2000px;
+    bottom:-320px;
+    animation: 
+    trail2 90s 25s infinite;
+}
+
+@keyframes trail2 {
+    0% {
+        left:-1200px;
+    }
+    100% {
+        left:100%
+    }
+} */
+
+
+/* lemonade ants */
+.spin {
+    animation: spinny 10s linear infinite 
+}
+
+#spin1 {
+    top:210px;
+    right:380px;
+}
+
+#spin2 {
+    top:270px;
+    right:400px;
+    animation: spinny2 12s linear infinite 
+}
+
+#spin3 {
+    top:230px;
+    right:450px;
+}
+
+@keyframes spinny {
+    0% {
+        rotate:0deg;
+    }
+    100% {
+        rotate:360deg;
+    }
+}
+
+@keyframes spinny2 {
+    0% {
+        rotate:0deg;
+    }
+    100% {
+        rotate:-360deg;
+    }
+}
+
+/* sandwich ants */
+
+#sandwich1 {
+    top:90px;
+    left:320px;
+    rotate:60deg;
+    animation: bite 2s ease-in-out alternate infinite;
+}
+
+#sandwich2 {
+    top:97px;
+    left:530px;
+    rotate:120deg;
+    animation: bite 2s 1s ease-in-out alternate infinite;
+}
+
+#sandwich3 {
+    top:320px;
+    left:540px;
+    rotate:-120deg;
+    animation: bite 2s ease-in-out alternate infinite;
+}
+
+#sandwich4 {
+    top:270px;
+    left:300px;
+    rotate:-60deg;
+    animation: bite 2s 1s ease-in-out alternate infinite;
+}
+
+@keyframes bite {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(10px);
+    }
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@keyframes */
+}
+
+/* berry ants */
+
+#berry1 {
+    top:406px;
+    left:-50px;
+    animation: berry 10s infinite;
+}
+
+#berry2 {
+    top:400px;
+    left:510px;
+    rotate:180deg;
+    animation: berryl 10s 10s linear infinite;
+    opacity:0%
+
+}
+
+@keyframes berry {
+   from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(590px);
+    }
+}
+
+@keyframes berryl {
+   0% {
+        transform: translateX(0);
+        opacity:100%
+    }
+   
+    100% {
+        transform: translateX(650px);
+        opacity:100%
+    }
+}
+
+/* funny flip */
+/* @keyframes berryl {
+   from {
+        transform: translateX(0);
+        transform:scaleX(-1)
+
+    }
+   
+    to {
+        transform: translateX(890px);
+    }
+} */
+
+
+/* crazy ants */
+
+#crazy1 
+{
+    top:200px;
+    left:380px;
+    animation: crazy 5s infinite alternate 
+    cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#crazy2 
+{
+    top:140px;
+    left:440px;
+    animation: crazy 5s 1s infinite alternate-reverse 
+    cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#crazy3 
+{
+    rotate:-15deg;
+    top:240px;
+    left:470px;
+    animation: crazy2 7s infinite alternate 
+    cubic-bezier(0.6, -0.28, 0.735, 0.045)
+    ;
+}
+
+#crazy4 
+{
+    bottom:240px;
+    right:470px;
+    animation: crazy2 7s infinite alternate 
+    cubic-bezier(0.6, -0.28, 0.735, 0.045)
+    ;
+}
+
+#crazy5 
+{
+    bottom:280px;
+    right:350px;
+    animation: crazy 5s 1s infinite alternate-reverse 
+    cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#crazy6
+{
+    animation: crazy 5s infinite alternate 
+    cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#crazy7 {
+    bottom:190px;
+    right:370px;
+    animation: crazy 5s infinite alternate 
+    cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes crazy {
+    0% {
+        transform: translateX(0px);
+        rotate:360deg;
+    }
+    50% {
+        transform: perspective(12px);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+@keyframes crazy2 {
+    0% {
+        transform: translateX(0px);
+        rotate:180deg;
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+#pile {
+    top:120px;
+    left:750px;
+    animation: pile .5s infinite alternate;
+}
+
+@keyframes pile {
+    0% {
+        scale:100%;
+    }
+    100% {
+        scale:101.0005%;
+    }
+}
+
+#crazy6 {
+    top:150px;
+    left:820px;
+    animation: crazy2 7s infinite alternate 
+    cubic-bezier(0.6, -0.28, 0.735, 0.045)
+    ;
+    z-index: -1;
+}
+
+/* queen arrives! */
+
+#queen {
+    left:-5370px;
+    bottom:120px;
+    animation: queen 50s infinite alternate;
+}
+
+@keyframes queen {
+    0% {
+        transform: translateX(0px); 
+        opacity:0%
+    }
+    100% {
+        transform: translateX(5400px);
+    }
+
+}
