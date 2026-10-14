@@ -371,10 +371,53 @@ body {
 @keyframes queen {
     0% {
         transform: translateX(0px); 
-        opacity:0%
     }
     100% {
         transform: translateX(5400px);
     }
 
+}
+
+.peanut1 {
+    bottom:-30px;
+    left:737px;
+    rotate:270deg;
+    animation: peanut 5s ease-in-out;
+}
+
+.peanut2 {
+    bottom:-30px;
+    left:758px; 
+    rotate:270deg;
+    animation: peanut 5s ease-in-out;
+
+}
+
+.fight {
+    bottom:50px;
+    left:710px;
+    animation: peanutf 2s 5s infinite alternate;
+    opacity:0%;
+}
+
+
+@keyframes peanut {
+    0% {
+        transform: translateX(0px); 
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+
+@keyframes peanutf {
+    0% {
+        transform: translateX(0px); 
+        opacity:100%;
+    }
+    100% {
+        transform: translateX(10px);
+        opacity:100%
+    }
 }
