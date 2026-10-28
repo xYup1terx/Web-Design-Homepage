@@ -1,4 +1,24 @@
   $( function() {
-    $( "#sortable" ).sortable();
-    $( "#sortable" ).disableSelection();
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+ 
+    $( "#opener" ).on( "click", function() {
+      $( "#dialog" ).dialog( "open" );
+      $(".halloween").css("display", "block")
+    });
   } );
+
+  
+  $( function() {
+    $( ".halloween" ).draggable();
+  } );
+  

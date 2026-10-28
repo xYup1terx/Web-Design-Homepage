@@ -1,6 +1,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
     body {
+      background-color: #742d79;
       background-image: url(img/porporbg.jpeg);
       background-size: cover;  
       font-family: "Creepster", system-ui;

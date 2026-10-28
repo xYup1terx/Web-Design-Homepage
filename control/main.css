@@ -8,10 +8,13 @@ img {
 }
 
 body {
+    background-color: #fb8501;
  background-image: url(img/ornagebg.jpeg);
  background-size: cover;  
  overflow: hidden;
  font-family: "Creepster", system-ui;
+ font-size: 30px;
+ 
 }
 
 .dash1 {
@@ -30,3 +33,48 @@ body {
 
     }
 }
+
+#dialog {
+    display: none;
+    background-color: rgb(183, 88, 33);
+    border: 3px solid brown;
+    padding:20px;
+    display:none;
+    border-radius: 20px;
+    text-align: center;
+    
+    
+}
+
+button {
+    padding:20px;
+    padding-left:60px;
+    padding-right:60px;
+    border-radius: 20px;
+    border: 3px solid brown;
+    background-color: rgb(183, 88, 33);
+    margin:20px;
+    margin-left:43px;
+    font-size: 30px;
+}
+
+#opener,p,a{
+     font-family: "Creepster", system-ui;
+
+}
+
+    
+title {
+    margin-left: 68px;
+}
+
+a {
+    color: rgb(85, 25, 142);
+}
+
+
+.halloween {
+    position: absolute;
+    display: none;
+}
+

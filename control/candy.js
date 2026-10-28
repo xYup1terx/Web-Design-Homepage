@@ -1,21 +1,4 @@
-  // $( function() {
-  //   $( "#draggable, #draggable-nonvalid" ).draggable();
-  //   $( "#droppable" ).droppable({
-  //     accept: "#draggable",
-  //     classes: {
-  //       "ui-droppable-active": "ui-state-active",
-  //       "ui-droppable-hover": "ui-state-hover"
-  //     },
-  //     drop: function( event, ui ) {
-  //       $( this )
-  //         .addClass( "ui-state-highlight" )
-  //         .find( "p" )
-  //           .html( "Dropped!" );
-  //     }
-  //   });
-  // } );
-
-    $( function() {
+   $( function() {
     $( ".bad" ).draggable({ revert: "valid" });
     $( ".good" ).draggable({ revert: "invalid" });
 

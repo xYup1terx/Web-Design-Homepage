@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Boo!</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+            body {
+                background-color: black;
+                font-family: "Creepster", system-ui;
+                 font-size:50px;
+                 color: blueviolet;
+            }
+
+            a {
+                 font-family: "Creepster", system-ui;
+                 font-size: 30px;
+                 color: rgb(0, 0, 0);
+            }
+
+             button {
+                    position: absolute;
+                    right:200px;
+                    bottom:170px;
+                    padding:20px;
+                    padding-left:60px;
+                    padding-right:60px;
+                    border-radius: 20px;
+                    border: solid black 2px;
+                    background-color: blueviolet;
+             }
+
+            .skeleton {
+                position: absolute;
+                top:200px;
+                left:-300px;
+                animation: run 5s forwards;
+            }
+
+            @keyframes run {
+                0% {
+
+                }
+                100% {
+                    transform: translateX(2000px);
+                }
+            }
+        
+        </style>
+
+
+    </head>
+
+    <body>
+        <p>
+           Not this one....
+        </p>
+
+        <button class="back">
+        <a href="lobsta.html">Go back</a>
+        </button>
+        
+    <img src="img/skeleton-charborg.gif" class="skeleton" width="600px">
+
+    
+
+
+  <script src="jquery-4.0.0.min.js"></script>
+  <script src="jquery-ui.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
