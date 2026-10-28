@@ -1,0 +1,46 @@
+ @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+    body {
+        background-color: black;
+      background-image: url(img/town.jpeg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      font-family: "Creepster", system-ui;
+      font-size:50px;
+}
+
+ a {
+      font-family: "Creepster", system-ui;
+      color:black;
+      font-size: 30px;
+  }
+
+  .house {
+    position:absolute;
+  }
+
+  .dash1{
+    opacity:0;
+    z-index: -9999;
+}
+
+.lobsta {
+    position: absolute;
+    bottom: 60px;
+    left:100px;
+    animation:  walk 30s linear forwards;
+}
+
+@keyframes walk {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(1800px);
+    }
+}
+
+.alien {
+    position:absolute;
+    right:-600px;
+}

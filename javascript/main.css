@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+body {
+    background-color:#81c1cb;
+}
+
+.dark {
+    background-color:#ee88af;
+    transition: background .5s;
+}
+
+.yellow {
+    color: #f3de09;
+}
+.menu {
+  background:#81c1cb;
+  color:floralwhite;
+  font-size: 150%;
+  padding:20px;
+  position:fixed;
+  top:0;
+  right:-300px;
+  height:100vh;
+  width:300px;
+  text-align:center;
+
+  transition: right .5s, background .5s;
+}
+
+.active {
+  right:0;
+}
+
+.gear {
+    position:fixed;
+    bottom:20px;
+    left:30px;
+    transition: rotate .5s;
+}
+
+.spin {
+    rotate:-360deg;
+}
+
+.glow {
+    filter: hue-rotate(230deg);
+}
+
+button {
+    padding: 10px;
+    border: 1.5px solid;
+    border-radius: 10px ;
+}
+
+/* #81c1cb 
+   #ee88af
+   #f3de09
+   
+   */

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+ background-image: url(img/ornagebg.jpeg);
+ background-size: cover;  
+ overflow: hidden;
+ font-family: "Creepster", system-ui;
+}
+
+.dash1 {
+    position: absolute;
+    right: -200px;
+    bottom: 30px;
+    animation: dashie 5s ;
+}
+
+@keyframes dashie { 
+    0% {
+        transform: translateX(430px);
+    }
+    100% {
+        transform: translateX(0);
+
+    }
+}

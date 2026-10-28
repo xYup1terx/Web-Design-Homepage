@@ -1,0 +1,68 @@
+    @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+    body {
+      background-image: url(img/porporbg.jpeg);
+      background-size: cover;  
+      font-family: "Creepster", system-ui;
+      font-size:50px;
+}
+
+ a {
+      font-family: "Creepster", system-ui;
+      color:black;
+      font-size: 30px;
+  }
+
+    .sus {
+      display:none;
+      position:fixed;
+      animation: bye 2s forwards; 
+      z-index: 999;
+    }
+
+    @keyframes bye {
+      0% {
+        opacity: 100;
+      }
+      
+      100% {
+        opacity: 0%;
+      }
+    }
+
+    .bowl {
+      position: absolute;
+      bottom:0px;
+      right:500px;
+      z-index: -1;
+    }
+
+    .candy2 {
+      position:absolute;
+      z-index: 2;
+    }
+
+    button {
+      position: absolute;
+      right:200px;
+      bottom:170px;
+        padding:20px;
+        padding-left:60px;
+        padding-right:60px;
+        border-radius: 20px;
+        border: solid black 2px;
+        background-color: rgb(122, 42, 129);
+
+  }
+
+  .goal {
+    position: absolute;
+    left:60px;
+    bottom:150px;
+  }
+
+
+
+    /* 
+    https://stackoverflow.com/questions/12991164/maintaining-the-final-state-at-end-of-a-css-animation
+     */

@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin:0;
+}
+.main {
+    background: rgb(17, 16, 16);
+}
+
+.container {
+    background: #364b5f;
+    height:100vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    background-color: #c2ac51;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 10px #d88e3ab4;
+    width:100px;
+    height:100px;
+
+    animation: spin 1s infinite alternate;
+    animation-play-state: paused;
+}
+
+.buttons {
+    position:fixed;
+    top:10px;
+    left:10px;
+}
+
+.container.dark {
+    background-color: rgb(33, 45, 64);
+}
+
+.box.dark {
+    background-color: #c07525;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 10px #c25221b4;
+}
+
+.hm {
+    color: #c99a34;
+    position:fixed;
+    bottom:30px;
+    right:10px;
+    font-size: 30px;
+    opacity:0%;
+    transition:1s;
+}
+
+.hm.dark {
+    opacity: 100%;
+}
+
+.box.spin {
+    animation-play-state:running;
+}
+
+@keyframes spin {
+    0% {
+        rotate:0;
+        scale: 1;
+    }
+    100% {
+        rotate:360;
+        scale: 1.2;
+    }
+}
+
+.papa {
+    position:fixed;
+    bottom:0px;
+    left: 0px;
+    opacity:0;
+    transition: 1s;
+}
+
+.papa.reveal {
+    opacity:1;
+}
+
+.hm.reveal {
+    opacity:1;
+}
+
+.draggable {
+    cursor: grab;
+}
