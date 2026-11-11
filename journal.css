@@ -45,3 +45,18 @@ hr {
     display: block;
     margin: auto;
 }
+
+.planet {
+    animation: spin 1.6s alternate infinite;
+}
+
+@keyframes spin {
+    0% {
+        rotate:0;
+        scale: 1;
+    }
+    100% {
+        rotate:360;
+        scale: 1.05;
+    }
+}
